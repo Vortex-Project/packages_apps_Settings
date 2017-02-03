@@ -171,5 +171,6 @@ public class Settings extends SettingsActivity {
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 	
 	// Vortex Extras
-
+    public static class EvolutionSettingsActivity extends SettingsActivity {}
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
