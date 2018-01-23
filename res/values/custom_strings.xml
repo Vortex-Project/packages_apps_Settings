@@ -307,4 +307,7 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 </resources>
