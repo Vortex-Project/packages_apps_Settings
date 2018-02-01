@@ -301,4 +301,10 @@
     <string name="dark_theme_style_default">Default</string>
     <string name="dark_theme_style_black">Black</string>
 
+    <!-- Vortex Settings -->
+    <string name="vortex_settings_title">Vortex OS</string>
+    <string name="vortex_settings_summary">Customizations</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
 </resources>
