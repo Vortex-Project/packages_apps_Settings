@@ -165,12 +165,14 @@ public class Settings extends SettingsActivity {
     public static class StorageDashboardActivity extends SettingsActivity {}
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
-    public static class VortexSettingsActivity extends SettingsActivity {}
 
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 	
 	// Vortex Extras
-    public static class EvolutionSettingsActivity extends SettingsActivity {}
+    public static class VortexSettingsActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+
+    // Smart Pixel
+    public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
 }

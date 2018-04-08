@@ -72,4 +72,10 @@
         android:title="@string/battery_temp_title"
         android:selectable="false" />
 
+    <Preference
+       android:key="smart_pixels"
+       android:title="@string/smart_pixels_title"
+       android:summary="@string/smart_pixels_summary"
+       android:fragment="com.vortex.settings.fragments.SmartPixels" />
+
 </PreferenceScreen>

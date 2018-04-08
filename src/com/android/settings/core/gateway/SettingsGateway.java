@@ -140,6 +140,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.vortex.settings.VortexSettings;
+import com.vortex.settings.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -269,6 +270,7 @@ public class SettingsGateway {
             LiveDisplaySettings.class.getName(),
             VortexSettings.class.getName(),
             RunningServices.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -309,5 +311,6 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.VortexSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
