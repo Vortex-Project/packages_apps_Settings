@@ -277,6 +277,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 BatteryTipListener */);
         controllers.add(mBatteryTipPreferenceController);
         controllers.add(new BatteryEstimatesPreferenceController(context));
+        controllers.add(new SmartPixelsPreferenceController(context));
         return controllers;
     }
 
