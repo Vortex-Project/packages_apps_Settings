@@ -39,9 +39,9 @@ public class BuildNumberDialogController {
     }
 
     private String getPixelExperienceVersion(){
-        String buildDate = SystemProperties.get("org.pixelexperience.build_date","");
-        String buildType = SystemProperties.get("org.pixelexperience.build_type","unofficial").toUpperCase();
-        return buildDate.equals("") ? "" : "PixelExperience-" + buildDate + "-" + buildType;
+        String buildDate = SystemProperties.get("org.vortex.build_date","");
+        String buildType = SystemProperties.get("org.vortex.build_type","unofficial").toUpperCase();
+        return buildDate.equals("") ? "" : "Vortex-OS-" + buildDate + "-" + buildType;
     }
 
     /**
@@ -52,10 +52,10 @@ public class BuildNumberDialogController {
         StringBuilder sb = new StringBuilder();
         sb.append(BidiFormatter.getInstance().unicodeWrap(
                 TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
-        String pixelExperienceVersion = getPixelExperienceVersion();
-        if (!pixelExperienceVersion.equals("")){
+        String VortexVersion = getVortexVersion();
+        if (!VortexVersion.equals("")){
             sb.append("\n");
-            sb.append(pixelExperienceVersion);
+            sb.append(VortexVersion);
         }
         sb.append("\n");
         sb.append(DeviceModelPreferenceController.getDeviceModel());
