@@ -102,9 +102,9 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
     }
 
     private String getPixelExperienceVersion(){
-        String buildDate = SystemProperties.get("org.pixelexperience.build_date","");
-        String buildType = SystemProperties.get("org.pixelexperience.build_type","unofficial").toUpperCase();
-        return buildDate.equals("") ? "" : "PixelExperience-" + buildDate + "-" + buildType;
+        String buildDate = SystemProperties.get("org.vortex.build_date","");
+        String buildType = SystemProperties.get("org.vortex.build_type","unofficial").toUpperCase();
+        return buildDate.equals("") ? "" : "Vortex-OS-" + buildDate + "-" + buildType;
     }
 
     @Override
