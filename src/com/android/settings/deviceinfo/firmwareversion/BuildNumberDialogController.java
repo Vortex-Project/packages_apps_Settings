@@ -38,7 +38,7 @@ public class BuildNumberDialogController {
         mDialog = dialog;
     }
 
-    private String getPixelExperienceVersion(){
+    private String getVortexVersion(){
         String buildDate = SystemProperties.get("org.vortex.build_date","");
         String buildType = SystemProperties.get("org.vortex.build_type","unofficial").toUpperCase();
         return buildDate.equals("") ? "" : "Vortex-OS-" + buildDate + "-" + buildType;

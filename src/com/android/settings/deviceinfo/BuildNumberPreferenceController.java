@@ -88,10 +88,10 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
                 StringBuilder sb = new StringBuilder();
                 sb.append(BidiFormatter.getInstance().unicodeWrap(
                         TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
-                String pixelExperienceVersion = getPixelExperienceVersion();
-                if (!pixelExperienceVersion.equals("")){
+                String VortexVersion = getVortexVersion();
+                if (!VortexVersion.equals("")){
                     sb.append("\n");
-                    sb.append(pixelExperienceVersion);
+                    sb.append(VortexVersion);
                 }
                 preference.setSummary(sb.toString());
                 preference.setEnabled(true);
@@ -101,7 +101,7 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
         }
     }
 
-    private String getPixelExperienceVersion(){
+    private String getVortexVersion(){
         String buildDate = SystemProperties.get("org.vortex.build_date","");
         String buildType = SystemProperties.get("org.vortex.build_type","unofficial").toUpperCase();
         return buildDate.equals("") ? "" : "Vortex-OS-" + buildDate + "-" + buildType;
