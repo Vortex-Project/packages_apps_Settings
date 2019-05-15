@@ -336,4 +336,8 @@
     <string name="maintainer_description">Maintains for %1$s</string>
     <string name="donate">Donate</string>
     <string name="donate_description">Support Us</string>
+
+    <!-- Battery estimates -->
+    <string name="battery_estimates_title">Battery Estimates in QS</string>
+    <string name="battery_estimates_summary">Show the estimated battery life in QS panel</string>
 </resources>
