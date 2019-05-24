@@ -381,4 +381,11 @@
     <!-- Vortex version -->
     <string name="vortex_version">Vortex OS version</string>
     <string name="vortex_version_default">Unknown</string>
+
+    <!-- Battery Estimate -->
+    <string name="show_battery_estimate_title">Battery Estimate</string>
+    <string name="show_battery_estimate_summary">Show Battery Estimate in QS Panel</string>
+    <string name="battery_estimate_position_title">Battery Estimate Position</string>
+    <string name="battery_estimate_position_qsheader">QS Header</string>
+    <string name="battery_estimate_position_qspanel">QS Panel</string>
 </resources>
