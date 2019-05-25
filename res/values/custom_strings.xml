@@ -388,4 +388,8 @@
     <string name="battery_estimate_position_title">Battery &amp; Estimate Position</string>
     <string name="battery_estimate_position_qsheader">QS Header</string>
     <string name="battery_estimate_position_qspanel">QS Panel</string>
+	
+	<!-- Advanced Battery Options -->
+    <string name="advanced_battery_options_title">Advanced</string>
+    <string name="advanced_battery_options_summary">Advanced Battery options</string>
 </resources>
