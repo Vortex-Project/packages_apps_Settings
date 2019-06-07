@@ -136,6 +136,9 @@
         <item>org.pixelexperience.overlay.accent.red</item>
         <item>org.pixelexperience.overlay.accent.yellow</item>
         <item>org.pixelexperience.overlay.accent.teal</item>
+        <item>org.pixelexperience.overlay.accent.blackpearl</item>
+        <item>org.pixelexperience.overlay.accent.oneplusred</item>
+        <item>org.pixelexperience.overlay.accent.sweetqpurple</item>
     </string-array>
     <string-array name="allowed_themes_when_light" translatable="false">
         <item>org.pixelexperience.overlay.accent.black</item>
