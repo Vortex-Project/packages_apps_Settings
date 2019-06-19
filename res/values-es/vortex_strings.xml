@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Vortex Settings -->
+    <string name="vortex_settings_title">Vortex OS</string>
+    <string name="vortex_settings_summary">Personalizaciones</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reiniciar estadísticas</string>
+    <string name="battery_stats_message">Las estadísticas del historial de la batería se restablecerán</string>
+    <string name="ok_string">Ok</string>
+  
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Enlazar sonido de llamada y de notificación.</string>
+
+	<!-- Notification log -->
+    <string name="notification_log_summary">Mostrar registro de historial de notificaciones</string>
+
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Temperatura de la batería</string>
+    
+    <!-- Font picker -->
+    <string name="font_picker_title">Fuente</string>
+    <string name="font_picker_progress">Aplicando nueva fuente\u2026</string>
+
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Modo de ahorro de batería</string>
+    <string name="location_mode_battery_saving_summary">Usar solamente Wi\u2011Fi, Bluetooth, o redes móviles para determinar la ubicación (menos precisa)</string>
+   
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Batería agresiva</string>
+    <string name="aggressive_battery_summary">Ahorro de batería más estricto</string>
+    <string name="aggressive_battery_warning_text">Estas son características de ahorro de energía. Pueden interferir con los servicios destinados a ejecutarse en modo inactivo, como las aplicaciones de navegación. Puede hacer que estas aplicaciones no se vean afectadas en la configuración de la batería de la aplicación.</string>
+    <string name="aggressive_idle_title">Inactividad agresiva</string>
+    <string name="aggressive_idle_summary">Ingresa el dispositivo de manera inactiva con más frecuencia por lo cual despierta menos</string>
+    <string name="aggressive_standby_title">En espera agresiva</string>
+    <string name="aggressive_standby_summary">Evita que las aplicaciones se ejecuten en el fondo</string>
+    <string name="aggressive_battery_saver_title">Auto habilitar en ahorro de batería </string> 
+    <string name="aggressive_battery_saver_summary">Habilite la batería agresiva automáticamente cuando use el ahorrador de batería</string>
+   
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Procesos de fondo</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Carga inteligente</string>
+    <string name="smart_charging_summary">Establecer el nivel máximo de carga</string>
+    <string name="smart_charging_switch_title">Usar carga inteligente</string>
+    <string name="smart_charging_level_title">Parar nivel de ejecución</string>
+    <string name="smart_charging_resume_level_title">Comenzar nivel de ejecución</string>
+    <string name="smart_charging_footer">La carga inteligente le permite establecer el nivel máximo de carga para prolongar la vida útil de su batería</string>   
+
+</resources>
