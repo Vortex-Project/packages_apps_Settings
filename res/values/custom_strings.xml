@@ -312,4 +312,28 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+	<!-- About Vortex OS -->
+    <string name="vortex_about_info">About us</string>
+    <string name="vortex_about_summary">Our introduction and our team</string>
+    <string name="vortex_about_info_summary">It is a project designed with the idea of ​​keeping everything clean and simple. Without neglecting the necessary updates to maintain a stable, secure and fast system.
+	At the moment this work is only thought to work with the specific model that you want to compile. Characteristics of other rom of the community have been selected.
+	</string>
+    <string name="dev_info">About Vortex OS</string>
+    <string name="leads">Team Leads</string>
+    <string name="github">Github</string>
+    <string name="github_description">View our source code</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Join our Telegram discussion group</string>
+    <string name="web">Download Center</string>
+    <string name="web_description">Visit our download portal</string>
+    <string name="maintainers">Maintainers</string>
+    <string name="dev_1">Melvin García</string>
+    <string name="dev1_description">Founder, Device maintainer</string>
+    <string name="dev_2">Melvin García</string>
+    <string name="dev2_description">Designer</string>
+    <string name="designers">Designers</string>
+    <string name="maintainer_description">Maintains for %1$s</string>
+    <string name="donate">Donate</string>
+    <string name="donate_description">Support Us</string>
 </resources>
