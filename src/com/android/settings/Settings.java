@@ -167,9 +167,6 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class VortexSettingsActivity extends SettingsActivity {}
 
-    // Ambient play
-    public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
-
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 	
