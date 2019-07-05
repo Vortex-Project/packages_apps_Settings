@@ -26,7 +26,7 @@
 		android:summary="@string/vortex_about_info_summary" >
 		<intent
 			android:action="android.intent.action.VIEW"
-			android:data="https://t.me/VortexOS-Project" />
+			android:data="https://t.me/VortexOS_Project" />
 	</Preference>
 
 	<Preference
@@ -44,7 +44,7 @@
 		android:icon="@drawable/ic_telegram" >
 		<intent
 			android:action="android.intent.action.VIEW"
-			android:data="https://t.me/VortexOS-Project" />
+			android:data="https://t.me/VortexOS_Project" />
 	</Preference>
 
 	<Preference

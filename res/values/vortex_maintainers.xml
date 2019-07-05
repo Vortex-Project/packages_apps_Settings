@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 	Copyright (C) 2019 Vortex OS
+
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
 	You may obtain a copy of the License at
@@ -18,16 +19,22 @@
     <!-- Maintainers -->
     <string-array name="maintainers_title" translatable="false">
         <item>Melvin García</item>
+        <item>nextgen</item>
+        <item>KNdroid</item>
     </string-array>
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
         <item>Xiaomi Mi 8 Lite (platina)</item>
+        <item>Xiaomi Redmi Note 7 (lavender)</item>
+        <item>Asus Zenfone Max Pro M1 (X00TD)</item>
     </string-array>
 
     <!-- Telegram URL of maintainer -->
     <string-array name="maintainers_url" translatable="false">
         <item>https://t.me/melvingarcia</item>
+        <item>https://t.me/melvingarcia</item>
+        <item>https://t.me/KNdroid</item>
     </string-array>
 
 </resources>
