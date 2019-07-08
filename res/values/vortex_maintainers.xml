@@ -21,6 +21,7 @@
         <item>Melvin García</item>
         <item>nextgen</item>
         <item>KNdroid</item>
+        <item>Luis Chaves</item>
     </string-array>
 
     <!-- Devices maintained by maintainer -->
@@ -28,6 +29,7 @@
         <item>Xiaomi Mi 8 Lite (platina)</item>
         <item>Xiaomi Redmi Note 7 (lavender)</item>
         <item>Asus Zenfone Max Pro M1 (X00TD)</item>
+        <item>Xiaomi Redmi Note 3 (kenzo)</item>
     </string-array>
 
     <!-- Telegram URL of maintainer -->
@@ -35,6 +37,7 @@
         <item>https://t.me/melvingarcia</item>
         <item>https://t.me/melvingarcia</item>
         <item>https://t.me/KNdroid</item>
+        <item>https://t.me/LuisChavesAst</item>
     </string-array>
 
 </resources>

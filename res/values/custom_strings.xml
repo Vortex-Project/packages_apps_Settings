@@ -384,6 +384,6 @@
     <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the system font picker.</string>
 
     <!-- Vortex version -->
-    <string name="vortex_version">Vortex version</string>
+    <string name="vortex_version">Vortex OS version</string>
     <string name="vortex_version_default">Unknown</string>
 </resources>
