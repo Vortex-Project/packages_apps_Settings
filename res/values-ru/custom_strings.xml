@@ -261,4 +261,7 @@
     <string name="dark_theme_style_title">Стиль тёмной темы</string>
     <string name="dark_theme_style_default">По умолчанию</string>
     <string name="dark_theme_style_black">Чёрный</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить устройствам, подключенным к этой точке доступа использовать VPN соединение</string>
 </resources>
